@@ -1,0 +1,17 @@
+{
+  "name": "@chirag127/astro-tools",
+  "version": "0.1.0",
+  "description": "ToolGrid + ToolCard + ToolPage components for utility/tool sites. Peer-deps on @chirag127/astro-chrome.",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Chirag Singhal <chirag@oriz.in>",
+  "homepage": "https://github.com/chirag127/astro-tools-npm-pkg#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/chirag127/astro-tools-npm-pkg.git" },
+  "bugs": { "url": "https://github.com/chirag127/astro-tools-npm-pkg/issues" },
+  "keywords": ["chirag127", "oriz"],
+  "files": ["src", "LICENSE", "README.md"],
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "publishConfig": { "access": "public" },"peerDependencies":{"@chirag127/astro-chrome":"^0.1.0"}
+}
